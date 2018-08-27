@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Rick and Morty Trivia</title>
+	
+	<link href="assets/css/reset.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+	
+    <div class = 'container'>
+		
+		<button class = 'btn btn-primary' id = 'startBtn'>Push this button to start! </button>
+			<!-- Question page -->
+			<div id = timeLeft></div> 
+			<div id = currentQuestion></div> 
+			<div class = 'question'></div>
+			<div class = 'answerList'></div>
+		
+			<!-- Answer Page -->
+			<div id = message></div>
+			<div id = correctedAnswer></div>
+			<div id = gif></div>
+		
+			<!-- Scoreboard -->
+			<div id = finalMessage></div>
+			<div id = correctAnswers></div>
+			<div id = incorrectAnswers></div>
+			<div id = unanswered></div>
+			<div id = 'startOverBtn'></div>
+    </div>
+    
+    <h1>Rick and Morty Trivia</h1>
+    
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script type = "text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
